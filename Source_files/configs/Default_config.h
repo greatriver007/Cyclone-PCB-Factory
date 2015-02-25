@@ -160,6 +160,16 @@
 		gearCoverExtraHeight = 5;
 		gearCoverExtraRadius = -7;
 		gearCover_truncationAngle = 10;
+	
+	// --- Tool type: Select tool
+		spindle_holder = 1;  //Aluminium part to hold the spindle
+		dremel = 0;
+		tool = dremel;
+
+	// --- Spindle Motor Holder ---
+		spindle_holder_bolt_X_separation = 70;
+		spindle_holder_bolt_Z_separation = 18;
+		spindle_holder_bolt_diam = 6;
 		
 	// --- Spindle Motor ---
 		spindle_motor_diam_top = 51.3;
@@ -181,7 +191,8 @@
 		PCB_holder_tolerance = 1;
 		axes_Xsmooth_separation_tolerance = 0.5;
 		X_threaded_rod_Tolerance = 0.5;
-		Z_linearBearingHole_tolerance = 0.5;
+		Z_linearBearingHole_tolerance = 0.25;
+		Z_radialBearingHole_tolerance = 0.25;
 		LinearBearingPressureFitTolerance = 0.4;
 		screwHoleTolerance = 0.4;
 		
